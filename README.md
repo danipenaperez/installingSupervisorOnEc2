@@ -34,7 +34,7 @@ files = /etc/supervisor/conf.d/*.conf
 > touch /etc/supervisor/conf.d/mywatchedService.conf
 > touch /etc/supervisor/conf.d/mywatchedService2.conf
 ```
-This is a sample content for this kind of configuration files: (a file sampled exists on this repo)
+This is a sample content for this kind of configuration files (f.ex: mywatchedService.conf): (a file sampled exists on this repo)
 ```
 [program:MyWatchedService]
 command=/usr/local/jdk1.8.0_91/bin/java -Dspring.profiles.active=develop -jar ./myWatchedService.jar
