@@ -25,9 +25,10 @@ you could create this sample file using
 /${supervisorInstallationFolder}/echo_supervisord_conf > supervisord.conf
 ```
 Edit the file and edit the last lines in this way (uncommented and edit)
+```
 [include]
 files = /etc/supervisor/conf.d/*.conf
-
+```
 4. In this file you could create one file for each service that supervisor will managers
 ```
 > touch /etc/supervisor/conf.d/mywatchedService.conf
