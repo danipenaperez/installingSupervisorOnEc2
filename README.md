@@ -29,7 +29,7 @@ Edit the file and edit the last lines in this way (uncommented and edit)
 [include]
 files = /etc/supervisor/conf.d/*.conf
 ```
-4. In this file you could create one file for each service that supervisor will managers
+4. In this Folder you could create one or more file*.conf for each service that supervisor will managers
 ```
 > touch /etc/supervisor/conf.d/mywatchedService.conf
 > touch /etc/supervisor/conf.d/mywatchedService2.conf
